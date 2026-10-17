@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Wifi Share</title>
+<meta name="description" content="Privacy policy for Wifi Share, an Android app that shares folders from your phone with devices on your local network.">
+<!--
+  BEFORE PUBLISHING, find and replace these tokens everywhere in this file:
+    Wifi Share          – the name of your app
+    [DEVELOPER NAME]    – your name or company name
+    [CONTACT EMAIL]     – a monitored email address for privacy questions
+    [WEBSITE URL]       – your website address (optional, may be removed)
+    [EFFECTIVE DATE]    – the date this policy takes effect, e.g. 1 November 2026
+    [COUNTRY]           – the country whose law governs this policy
+    [TERMS OF USE URL]  – the public address of your terms-of-use page
+  Have a qualified lawyer review this page before you publish it.
+-->
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f5f7fa;
+    --text: #1b1f24;
+    --muted: #5a6572;
+    --accent: #0b63c5;
+    --border: #d9dee5;
+    --note-bg: #fff6e0;
+    --note-border: #e0b84d;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161b;
+      --surface: #1b2128;
+      --text: #e8ecf1;
+      --muted: #a2adb9;
+      --accent: #6db1ff;
+      --border: #2d3640;
+      --note-bg: #2b2412;
+      --note-border: #8a6d1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.3rem; margin: 2.2rem 0 0.6rem; padding-top: 0.4rem; border-top: 1px solid var(--border); }
+  h3 { font-size: 1.05rem; margin: 1.4rem 0 0.3rem; }
+  p, li { margin: 0.5rem 0; }
+  ul { padding-left: 1.3rem; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 1.5rem; }
+  .summary, .note {
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 1.2rem 0;
+  }
+  .summary { background: var(--surface); border: 1px solid var(--border); }
+  .note { background: var(--note-bg); border: 1px solid var(--note-border); }
+  .summary ul { margin: 0.4rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.96rem; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border: 1px solid var(--border); }
+  th { background: var(--surface); }
+  .scroll { overflow-x: auto; }
+  nav { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 18px; margin: 1.2rem 0; }
+  nav ol { margin: 0.3rem 0; padding-left: 1.3rem; columns: 2; column-gap: 28px; }
+  @media (max-width: 600px) { nav ol { columns: 1; } body { font-size: 16px; } h1 { font-size: 1.6rem; } }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.92rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="meta"><strong>Wifi Share</strong> for Android &middot; Effective date: 17.10.2026</p>
+
+<div class="summary">
+  <strong>In short</strong>
+  <ul>
+    <li>Wifi Share turns your phone into a small file server for your <em>local network</em>. You choose which folders to share and which networks to allow.</li>
+    <li>There is no account, no sign-up, no advertising, and no analytics or crash-reporting service in the app.</li>
+    <li>The app does not send your files, folder names, passwords, Wi-Fi names or location to our server or to any server operated by us. We do not collect, sell or share your personal data.</li>
+    <li>Anyone you authorize can access the folders you share. Please read <a href="#responsibilities">Security and your responsibilities</a>.</li> 
+  </ul>
+</div>
+
+<nav aria-label="Contents">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#who">Who we are</a></li>
+    <li><a href="#what">What the app does</a></li>
+    <li><a href="#collect">Data we collect</a></li>
+    <li><a href="#device">Information that stays on your device</a></li>
+    <li><a href="#permissions">Permissions the app asks for</a></li>
+    <li><a href="#network">Connections, discovery and encryption</a></li>
+    <li><a href="#google">Google Play services</a></li>
+    <li><a href="#storage">Storage, backup and deletion</a></li>
+    <li><a href="#responsibilities">Security and your responsibilities</a></li>
+    <li><a href="#children">Children</a></li>
+    <li><a href="#rights">Your rights and choices</a></li>
+    <li><a href="#changes">Changes to this policy</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</nav>
+
+<h2 id="who">1. Who we are</h2>
+<p>Wifi Share (“the app”, “we”, “us”) is published by <strong>Utility Bangla Studio</strong>. This policy explains what information the app handles, where that information goes, and what you can control. You can reach us at <a href="mailto:nuruzzaman.dev.bd@gmail.com">nuruzzaman.dev.bd@gmail.com</a>.</p>
+
+<h2 id="what">2. What the app does</h2>
+<p>The app runs a WebDAV file-sharing service on your phone. Other devices on a network you have approved (for example a computer or another phone using a WebDAV-capable file manager) can connect to your phone and work with the folders you selected. Files move directly between your phone and the devices you connect. They are not uploaded to a cloud service operated by us.</p>
+<p>Depending on your settings, a connected device that you have authorized can read, upload, replace, rename, move, copy and delete files inside the shared folders. A read-only option is available in the app’s settings.</p>
+
+<h2 id="collect">3. Data we collect</h2>
+<p><strong>We do not collect personal data.</strong> The app has no user accounts and contains no advertising, analytics, attribution or crash-reporting software. It does not transmit your shared files, file names, folder paths, passwords, certificates, network names, IP addresses or location to us or to any third party we operate or control.</p>
+<p>The app requests the Android “Internet” permission only because Android requires it for an app to accept connections on your local network. The app does not use it to contact servers operated by us.</p>
+<p>Because we do not receive your data, we are generally not able to look up, export, correct or delete it for you. Everything described below is stored on your own device and under your control.</p>
+
+<h2 id="device">4. Information that stays on your device</h2>
+<p>To work, the app processes and stores the following <em>on your phone only</em>:</p>
+<div class="scroll">
+<table>
+  <tr><th>Information</th><th>Why it is used</th></tr>
+  <tr><td>The folders you chose to share and the files inside them</td><td>To show and transfer files to devices you authorize.</td></tr>
+  <tr><td>Your sharing username and password (if you turn on password login)</td><td>To check logins from other devices. The password is encrypted with the Android Keystore.</td></tr>
+  <tr><td>Network identity and your decisions: Wi-Fi name (SSID), access-point address (BSSID), interface and IP address, and whether you allowed, blocked or allowed once</td><td>To share only on networks you approved and to avoid sharing on unknown networks.</td></tr>
+  <tr><td>A security certificate and its private key</td><td>To offer encrypted (HTTPS) connections. The private key is protected by the Android Keystore. The public certificate can be exported by you.</td></tr>
+  <tr><td>App settings (for example read-only mode, HTTPS choice, language, whether sharing should resume after a restart)</td><td>To remember your choices.</td></tr>
+  <tr><td>File property data that some computers send (for example Windows file attributes and timestamps)</td><td>To display files correctly to the same kind of client.</td></tr>
+  <tr><td>A record that you accepted the Terms of Use (version number and date)</td><td>To avoid asking you again until the Terms change. This record stays on your device and is not sent to us.</td></tr>
+  <tr><td>Addresses of connecting devices and short-lived login-attempt counters, kept in memory</td><td>To limit connections and slow down repeated failed logins.</td></tr>
+</table>
+</div>
+<p>The release version of the app is built not to write file names, addresses or credentials to the Android system log.</p>
+<p>If you copy a file link, the app places that link on the Android clipboard at your request. Other apps with clipboard access may be able to read it, as with any copied text.</p>
+
+<h2 id="permissions">5. Permissions the app asks for</h2>
+<div class="scroll">
+<table>
+  <tr><th>Permission</th><th>Why the app needs it</th></tr>
+  <tr><td>All files access / storage access</td><td>To read and manage the folders you choose to share. On older Android versions, the standard read/write storage permissions are used instead. The app only serves folders you select.</td></tr>
+  <tr><td>Location (precise) and Location while the app is closed</td><td>Android only reveals the Wi-Fi name (SSID) and access-point address (BSSID) to apps that hold the location permission and while the phone’s Location setting is on. The app uses this to recognize which network you are on. Background access lets the app recognize the network when it is closed or after a restart. The app does not read, store or send your geographic coordinates.</td></tr>
+  <tr><td>Network, Wi-Fi state and multicast</td><td>To detect the active network, open the sharing service and let other devices on the network find your phone.</td></tr>
+  <tr><td>Notifications</td><td>To show the “sharing is on” notification and to ask you to allow or block a new network.</td></tr>
+  <tr><td>Foreground service (connected device) and wake lock</td><td>To keep sharing running while transfers are in progress, even with the screen off.</td></tr>
+  <tr><td>Receive boot completed</td><td>To restart sharing after the phone restarts, only if you had it turned on. Turning sharing off disables this.</td></tr>
+</table>
+</div>
+<p>You can withdraw any permission in Android settings at any time. Some features, such as recognizing Wi-Fi networks, will then not work.</p>
+<p>If your device has a screen lock, the app may ask you to unlock with your fingerprint, face or device PIN before opening its settings. This check is performed by Android; the app does not receive or store your biometric data.</p>
+
+<h2 id="network">6. Connections, discovery and encryption</h2>
+<h3>Who can connect</h3>
+<p>The app only shares on networks you approve. It asks you before sharing on a new network, and you can allow it once, allow it permanently or block it. Network approval is a useful restriction, but it is not cryptographic proof of identity: a person can copy a network’s name and access-point address.</p>
+<h3>Login</h3>
+<p>Password login (Digest authentication) is optional. If you leave it off, anyone on a network you approved who can reach your phone may access the shared folders. You can turn password login on in the app.</p>
+<h3>Encrypted and unencrypted connections</h3>
+<ul>
+  <li><strong>HTTPS</strong> encrypts file transfers, but only protects you if the other device verifies your phone’s certificate. You may need to install or approve the certificate on that device. Check the fingerprint shown in the app before trusting it.</li>
+  <li><strong>HTTP</strong>, if you use it, does <em>not</em> encrypt file contents or file-link tokens. Other people on the same network may be able to see or alter the traffic. Use HTTP only on networks you trust.</li>
+  <li>Password login does not encrypt HTTP transfers.</li>
+</ul>
+<h3>Local discovery</h3>
+<p>So that other devices can find your phone, the app announces the device name, its network addresses and service details on approved networks, using standard local-network discovery protocols (such as WS-Discovery, SSDP, mDNS and LLMNR). These announcements are not encrypted and can be seen by other devices on that network, even when HTTPS is used for the files.</p>
+
+<h2 id="google">7. Google Play services</h2>
+<p>When Android’s Location setting is off, the app can use Google Play services, if available on your device, to show Android’s standard “turn on location” prompt. This only checks and changes the device setting; the app does not request your coordinates. Google Play services is provided by Google and is subject to <a href="https://policies.google.com/privacy" rel="noopener">Google’s Privacy Policy</a>. The app contains no other third-party services.</p>
+<p>The app currently contains no advertising.</p>
+
+<h2 id="storage">8. Storage, backup and deletion</h2>
+<ul>
+  <li>The app’s settings, credentials, network decisions and file-property database are excluded from Android cloud backup and device-to-device transfer. After moving to a new phone, you will need to set the app up again.</li>
+  <li>Saved network rules and folder selections stay until you remove them, clear the app’s data or uninstall the app.</li>
+  <li>Using “Reset credentials” creates a new password and invalidates old access. Resetting the security certificate means other devices must trust the new one.</li>
+  <li>Clearing the app’s data or uninstalling the app does <strong>not</strong> delete the files you shared; they remain in your phone’s storage.</li>
+</ul>
+
+<h2 id="responsibilities">9. Security and your responsibilities</h2>
+<div class="note">
+  <p><strong>Please read this section carefully.</strong> We have made reasonable efforts to design Wifi Share to be secure and to protect your privacy: for example, passwords and keys are protected by the Android Keystore, the app shares only folders and networks you select, and encryption (HTTPS) is available. However, no software and no network is completely secure, and we cannot guarantee that the app will be free of errors, interruptions or vulnerabilities, or that files will never be lost, changed or seen by others.</p>
+</div>
+<p>Because you decide what to share, with whom and over which network, you are responsible for:</p>
+<ul>
+  <li>choosing which folders to share and checking that they contain nothing you are not willing to expose;</li>
+  <li>approving only networks and devices you trust, and not sharing on public or unknown Wi-Fi;</li>
+  <li>turning on password login, choosing a strong password, and not giving it to anyone you do not trust;</li>
+  <li>choosing HTTPS where possible, and verifying a certificate’s fingerprint before you trust it on another device;</li>
+  <li>using the read-only option when others should not change your files;</li>
+  <li>keeping independent backups of important files, because an authorized device can delete or overwrite files in a shared folder;</li>
+  <li>keeping your phone, the app and the devices you connect up to date and free of malware; and</li>
+  <li>how you, and the people you give access to, use the files you share, including compliance with the law and the rights of others.</li>
+</ul>
+<p>To the fullest extent permitted by applicable law, we are not responsible for loss, damage or exposure of data that results from the choices and settings described above, from the behaviour of other devices, networks or software that you connect to the app, or from circumstances outside our reasonable control. This does not exclude or limit any liability that cannot be excluded or limited by law, any rights you have as a consumer, or any obligation we have under data-protection law.</p>
+
+<h2 id="children">10. Children</h2>
+<p>The app is not directed to children, and we do not knowingly collect personal data from anyone, including children. If you share a device with a child, please supervise what is shared.</p>
+
+<h2 id="rights">11. Your rights and choices</h2>
+<p>You control the app’s information on your device: you can change or remove shared folders, approve or block networks, switch password login and read-only mode on or off, reset your credentials, stop sharing at any time, withdraw permissions in Android settings, and delete all of the app’s data by clearing its storage or uninstalling it.</p>
+<p>Depending on where you live, you may have rights under data-protection laws (such as access, correction, deletion or objection). Because we do not collect or hold your personal data, these rights generally apply to information already on your own device. If you have any question or request, contact us at <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>.</p>
+
+<h2 id="changes">12. Changes to this policy</h2>
+<p>We may update this policy when the app or the law changes. The current version is always available at this address and shows its effective date above. If a change materially affects how your information is handled, we will tell you in the app or in the app’s store listing before it takes effect where reasonably possible.</p>
+
+<h2 id="contact">13. Contact</h2>
+<p>Utility Bangla Studio<br>
+Email: <a href="mailto:nuruzzman.dev.bd@gmail.com">nuruzzaman.dev.bd@gmail.com</a><br>
+
+
+
+<footer>
+  <p>&copy; Utility Bangla Studio. Effective 17.10.2026.</p>
+</footer>
+
+</main>
+</body>
+</html>
